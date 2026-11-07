@@ -202,7 +202,7 @@ struct HomeView: View {
         .background(CushnColor.canvas)
         .overlay {
             if sections.isEmpty {
-                EmptyMonthView { addContext = AddContext(month: month, categoryID: nil) } onOrganize: { showingOrganize = true }
+                EmptyMonthView { addContext = AddContext(month: month, categoryID: nil) }
             }
         }
     }
@@ -389,7 +389,6 @@ struct SectionHeader: View {
 
 struct EmptyMonthView: View {
     let onAdd: () -> Void
-    let onOrganize: () -> Void
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
@@ -403,9 +402,6 @@ struct EmptyMonthView: View {
             Button("Add payment", action: onAdd)
                 .buttonStyle(CushnPrimaryButtonStyle(fill: CushnColor.primaryText, text: CushnColor.canvas))
                 .accessibilityIdentifier("emptyAddPayment")
-            // With no headings on screen, this is the way to set sections up first.
-            CushnTextButton("Organize sections", action: onOrganize)
-                .accessibilityIdentifier("emptyOrganize")
         }
         .padding(CushnSpacing.inset)
     }
