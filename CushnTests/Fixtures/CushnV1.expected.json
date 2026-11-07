@@ -1,0 +1,1961 @@
+[
+  {
+    "month" : "2026-09",
+    "sections" : [
+
+    ],
+    "totals" : [
+
+    ]
+  },
+  {
+    "month" : "2026-10",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "confirmedAt" : 1790028800,
+            "currency" : "USD",
+            "dueDate" : "2026-10-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "skipped"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-10-15",
+            "kind" : "expense",
+            "minorUnits" : 999,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-10-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "confirmedAt" : 1790021600,
+            "currency" : "USD",
+            "dueDate" : "2026-10-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "paid"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "confirmedAt" : 1790032400,
+            "currency" : "JPY",
+            "dueDate" : "2026-10-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1200,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "paid"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "JPY",
+        "markedPaid" : 1200,
+        "scheduled" : 1200,
+        "skipped" : 0,
+        "unconfirmed" : 0
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 185000,
+        "scheduled" : 225398,
+        "skipped" : 38200,
+        "unconfirmed" : 2198
+      }
+    ]
+  },
+  {
+    "month" : "2026-11",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-11-30",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-11-15",
+            "kind" : "expense",
+            "minorUnits" : 999,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-11-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "confirmedAt" : 1790025200,
+            "currency" : "USD",
+            "dueDate" : "2026-11-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "paid"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-11-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Sample Projects"
+      },
+      {
+        "rows" : [
+          {
+            "confirmedAt" : 1790046800,
+            "currency" : "JPY",
+            "dueDate" : "2026-11-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1200,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "paid"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "JPY",
+        "markedPaid" : 1200,
+        "scheduled" : 1200,
+        "skipped" : 0,
+        "unconfirmed" : 0
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 185000,
+        "scheduled" : 237398,
+        "skipped" : 0,
+        "unconfirmed" : 52398
+      }
+    ]
+  },
+  {
+    "month" : "2026-12",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-12-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-12-15",
+            "kind" : "expense",
+            "minorUnits" : 1299,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-12-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-12-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2026-12-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Sample Projects"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "JPY",
+            "dueDate" : "2026-12-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1200,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2026-12-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1200,
+        "skipped" : 0,
+        "unconfirmed" : 1200
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237698,
+        "skipped" : 0,
+        "unconfirmed" : 237698
+      }
+    ]
+  },
+  {
+    "month" : "2027-01",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-01-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-01-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-01-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-01-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-01-05",
+            "kind" : "expense",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Sample Hobbies"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-01-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1200,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-01-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1200,
+        "skipped" : 0,
+        "unconfirmed" : 1200
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-02",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-02-28",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-02-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-02-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-02-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-02-05",
+            "kind" : "expense",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Sample Hobbies"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-02-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-03",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-03-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-03-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-03-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-03-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-03-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-03-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-04",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-04-30",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-04-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-04-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-04-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-04-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-04-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-04-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-05",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-05-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-05-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-05-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-05-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-05-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-05-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-05-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-06",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-06-30",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-06-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-06-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-06-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-06-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-06-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-06-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-07",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-07-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-07-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-07-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-07-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-07-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-07-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-07-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-08",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-08-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-08-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-08-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-08-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-08-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-08-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-08-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-09",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-09-30",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-09-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-09-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-09-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-09-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-09-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-09-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-10",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-10-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-10-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-10-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-10-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-10-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-10-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-10-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-11",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-11-30",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-11-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-11-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-11-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-11-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-11-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-11-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2027-12",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-12-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-12-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-12-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-12-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2027-12-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2027-12-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2027-12-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2028-01",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-01-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-01-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-01-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-01-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-01-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2028-01-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2028-01-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2028-02",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-02-29",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-02-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-02-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-02-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-02-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2028-02-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2028-02-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  },
+  {
+    "month" : "2028-03",
+    "sections" : [
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-03-31",
+            "kind" : "creditRepayment",
+            "minorUnits" : 38200,
+            "name" : "Sample Card",
+            "nominalDueDay" : 31,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Credit Cards"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-03-20",
+            "kind" : "expense",
+            "minorUnits" : 1199,
+            "name" : "Sample Music",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-03-15",
+            "kind" : "expense",
+            "minorUnits" : 1599,
+            "name" : "Sample Streaming",
+            "nominalDueDay" : 15,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Subscriptions"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-03-01",
+            "kind" : "expense",
+            "minorUnits" : 185000,
+            "name" : "Sample Rent",
+            "nominalDueDay" : 1,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Housing"
+      },
+      {
+        "rows" : [
+          {
+            "currency" : "USD",
+            "dueDate" : "2028-03-05",
+            "kind" : "unclassified",
+            "minorUnits" : 12000,
+            "name" : "Sample Class",
+            "nominalDueDay" : 5,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "EUR",
+            "dueDate" : "2028-03-20",
+            "kind" : "unclassified",
+            "minorUnits" : 4500,
+            "name" : "Sample Gym",
+            "nominalDueDay" : 20,
+            "status" : "unconfirmed"
+          },
+          {
+            "currency" : "JPY",
+            "dueDate" : "2028-03-10",
+            "kind" : "unclassified",
+            "minorUnits" : 1500,
+            "name" : "Sample Storage",
+            "nominalDueDay" : 10,
+            "status" : "unconfirmed"
+          }
+        ],
+        "title" : "Other"
+      }
+    ],
+    "totals" : [
+      {
+        "currency" : "EUR",
+        "markedPaid" : 0,
+        "scheduled" : 4500,
+        "skipped" : 0,
+        "unconfirmed" : 4500
+      },
+      {
+        "currency" : "JPY",
+        "markedPaid" : 0,
+        "scheduled" : 1500,
+        "skipped" : 0,
+        "unconfirmed" : 1500
+      },
+      {
+        "currency" : "USD",
+        "markedPaid" : 0,
+        "scheduled" : 237998,
+        "skipped" : 0,
+        "unconfirmed" : 237998
+      }
+    ]
+  }
+]

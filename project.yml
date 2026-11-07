@@ -1,0 +1,83 @@
+name: Cushn
+options:
+  bundleIdPrefix: com.tekrislabs
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  developmentLanguage: en
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: 766WG2GGCA
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Cushn:
+    type: application
+    platform: iOS
+    sources:
+      - Cushn
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tekrislabs.cushn
+        PRODUCT_NAME: Cushn
+        # iPhone only. XcodeGen's target default would otherwise add iPad.
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTED_PLATFORMS: "iphoneos iphonesimulator"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.finance
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Cushn
+        INFOPLIST_FILE: Cushn/Resources/Info.plist
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        SWIFT_EMIT_LOC_STRINGS: YES
+  CushnTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - CushnTests
+    dependencies:
+      - target: Cushn
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.tekrislabs.cushn.tests
+        TARGETED_DEVICE_FAMILY: "1"
+  CushnUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - CushnUITests
+    dependencies:
+      - target: Cushn
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.tekrislabs.cushn.uitests
+        TARGETED_DEVICE_FAMILY: "1"
+        TEST_TARGET_NAME: Cushn
+schemes:
+  Cushn:
+    build:
+      targets:
+        Cushn: all
+        CushnTests: [test]
+        CushnUITests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: false
+      targets:
+        - CushnTests
+        - CushnUITests
