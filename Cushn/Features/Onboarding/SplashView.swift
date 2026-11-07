@@ -15,7 +15,7 @@ struct SplashView: View {
 
     private static let fadeIn = 0.2
     /// Long enough to read the name and tagline. Nothing waits on this, because the screen beneath already works.
-    private static let readingTime = 1.2
+    private static let readingTime = 2.0
     private static let fadeOut = 0.25
 
     var body: some View {
@@ -57,6 +57,8 @@ struct SplashView: View {
     }
 
     private func run() async {
+        // This resumes once the first frame's work is done, so a slow first launch can't use up the time unseen.
+        try? await Task.sleep(for: .milliseconds(50))
         withAnimation(reduceMotion ? nil : .easeOut(duration: Self.fadeIn)) { revealed = true }
         guard !holds else { return }
         try? await Task.sleep(for: .seconds((reduceMotion ? 0 : Self.fadeIn) + Self.readingTime))

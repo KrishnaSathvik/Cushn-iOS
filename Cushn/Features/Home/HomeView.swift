@@ -202,7 +202,7 @@ struct HomeView: View {
         .background(CushnColor.canvas)
         .overlay {
             if sections.isEmpty {
-                EmptyMonthView { addContext = AddContext(month: month, categoryID: nil) }
+                EmptyMonthView()
             }
         }
     }
@@ -388,7 +388,6 @@ struct SectionHeader: View {
 }
 
 struct EmptyMonthView: View {
-    let onAdd: () -> Void
     @Environment(\.colorScheme) private var colorScheme
 
     var body: some View {
@@ -399,9 +398,6 @@ struct EmptyMonthView: View {
                 .font(CushnFont.body)
                 .foregroundStyle(CushnColor.secondaryText)
                 .multilineTextAlignment(.center)
-            Button("Add payment", action: onAdd)
-                .buttonStyle(CushnPrimaryButtonStyle(fill: CushnColor.primaryText, text: CushnColor.canvas))
-                .accessibilityIdentifier("emptyAddPayment")
         }
         .padding(CushnSpacing.inset)
     }

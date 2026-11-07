@@ -146,9 +146,9 @@
 		80D215397B7D89E5AC5EBBEE /* AuditInventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditInventoryUITests.swift; sourceTree = "<group>"; };
 		854781C97CEE2297687842CF /* BrandCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCatalog.swift; sourceTree = "<group>"; };
 		856E94AA719B0EA1A36B93B6 /* Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
-		86A41B2DA934FAFCF1209E8D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		86A41B2DA934FAFCF1209E8D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8CE5149347D61CEED358F5F5 /* RefinementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefinementTests.swift; sourceTree = "<group>"; };
-		8EF6E82FC382C6098AD634F8 /* CushnV1.store */ = {isa = PBXFileReference; path = CushnV1.store; sourceTree = "<group>"; };
+		8EF6E82FC382C6098AD634F8 /* CushnV1.store */ = {isa = PBXFileReference; lastKnownFileType = file; path = CushnV1.store; sourceTree = "<group>"; };
 		9107271B74C90D2142C0005D /* CushnBrandTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushnBrandTheme.swift; sourceTree = "<group>"; };
 		9A80EADD45E24278D9D76626 /* Ledger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ledger.swift; sourceTree = "<group>"; };
 		9CF06654523AF12CD63E3FC7 /* CushnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CushnApp.swift; sourceTree = "<group>"; };

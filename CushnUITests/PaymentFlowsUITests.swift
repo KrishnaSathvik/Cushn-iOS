@@ -8,7 +8,8 @@ final class PaymentFlowsUITests: XCTestCase {
         let app = launch(store: tempStorePath())
         XCTAssertEqual(app.monthTitle(), "November 2026")
         XCTAssertTrue(app.staticTexts["Nothing here yet. Add your first payment."].exists)
-        XCTAssertTrue(app.buttons["emptyAddPayment"].exists)
+        XCTAssertTrue(app.buttons["addPayment"].exists)
+        XCTAssertFalse(app.buttons["emptyAddPayment"].exists)
         XCTAssertFalse(app.buttons["Organize sections"].exists)
         XCTAssertFalse(app.alerts.firstMatch.exists)
     }

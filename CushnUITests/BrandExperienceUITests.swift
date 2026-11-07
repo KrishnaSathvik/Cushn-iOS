@@ -92,7 +92,7 @@ final class BrandExperienceUITests: XCTestCase {
         XCTAssertFalse(app.buttons["onboardingSkip"].isHittable, "The last page has only Get Started")
 
         app.buttons["onboardingStart"].tap()
-        XCTAssertTrue(app.buttons["emptyAddPayment"].waitForExistence(timeout: 5), "Sample payments must not reach the real list")
+        XCTAssertTrue(app.staticTexts["Nothing here yet. Add your first payment."].waitForExistence(timeout: 5), "Sample payments must not reach the real list")
     }
 
     func testHeaderTitleSitsAtTheSameHeightOnEveryTab() {
