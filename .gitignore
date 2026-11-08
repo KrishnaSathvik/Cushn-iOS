@@ -16,3 +16,6 @@ planning/
 tests/
 scripts/
 marketing/raw/
+
+# Local secrets
+.env
