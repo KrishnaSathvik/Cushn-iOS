@@ -19,3 +19,9 @@ marketing/raw/
 
 # Local secrets
 .env
+
+# Local marketing work (designed sets and drafts)
+marketing/designed/
+marketing/app-store/duo/
+marketing/app-store/product-page-header.png
+marketing/app-store/search-results.png
